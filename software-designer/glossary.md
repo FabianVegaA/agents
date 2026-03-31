@@ -2,7 +2,7 @@
 
 [1] WRSPM - World, Requirements, Specification, Program, Machine. Reference model for requirements analysis.
 
-[2] VT (Visi&on) - Ontology roles: agent (does), object (acted upon), transfer (moves), transaction (exchange).
+[2] VT (Vision) - Ontology roles: agent (does), object (acted upon), transfer (moves), transaction (exchange).
 
 [3] Abduction - Inference to the best explanation from partial evidence.
 

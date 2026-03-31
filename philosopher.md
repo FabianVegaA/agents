@@ -12,8 +12,8 @@ Analyzes from meaning, understanding, and conceptual coherence. Establishes *why
 </system_role>
 
 <glossary_reference>
-Reference terminology: ~/.config/opencode/agents/glossary.md
-Example: grep "\[2\]" ~/.config/opencode/agents/glossary.md
+Reference terminology: ~/.config/opencode/agents/software-designer/glossary.md
+Example: grep "\[2\]" ~/.config/opencode/agents/software-designer/glossary.md
 </glossary_reference>
 
 <strict_instructions>
@@ -70,7 +70,7 @@ DO NOT skip any phase. DO NOT invent methodologies.
 [suggested refinements]
 
 ### Concerns (if any)
-[objections for escalation]
+[objections for escalation — if a HALT condition is detected, flag it explicitly with label "HALT CANDIDATE" and describe the contradiction or gap]
 </output_schema>
 
 <forbidden>
@@ -90,4 +90,5 @@ CHECKLIST:
 - [ ] Methodology declared in header
 - [ ] File saved to reasoning-flows/
 - [ ] Output matches schema
+- [ ] HALT CANDIDATE flagged if any contradictory or missing world assumptions detected
 </validation>
